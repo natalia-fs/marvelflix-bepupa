@@ -1,0 +1,136 @@
+.lancamentos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lancamentos > p {
+  color: var(--white);
+  margin: 1rem 0;
+  font-size: 2rem;
+  /* padding-left: 6.5rem; */
+  padding-left: 2rem;
+}
+.carrossel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagens {
+  display: flex;
+  width: 66rem;
+  justify-content: left;
+  background: var(--gray);
+  /* overflow-x: auto; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.imagens::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.carrossel button {
+  color: var(--white);
+  margin: 2rem 0.8rem;
+  background: none;
+  opacity: 0.6;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.carrossel button:hover {
+  color: var(--white);
+  margin: 0 0.8rem;
+  background: var(--gray);
+  opacity: 1;
+}
+
+.carrossel .imagens img {
+  padding: 1rem 0.5rem;
+  min-width: 14.125rem;
+  position: relative;
+  transition: 0.4s ease;
+  left: 0;
+}
+
+.carrossel .imagens img:hover {
+  transform: scale(1.03);
+}
+
+.carrossel .imagens img:first-child {
+  padding-left: 1rem;
+}
+.carrossel .imagens img:last-child {
+  padding-right: 0rem;
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 93.75%;
+  }
+  .imagens {
+    width: 100rem;
+  }
+  .carrossel .imagens img {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  html {
+    font-size: 87.5%;
+  }
+  .imagens {
+    width: 89rem;
+  }
+  .carrossel .imagens img {
+    min-width: 17rem;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  html {
+    font-size: 87.5%;
+  }
+  .imagens {
+    width: 81rem;
+  }
+  .carrossel .imagens img {
+    min-width: 16rem;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1280px) {
+  html {
+    font-size: 75%;
+  }
+  .imagens {
+    width: 75rem;
+  }
+  .carrossel .imagens img {
+    min-width: 16.25rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  html {
+    font-size: 75%;
+  }
+  .imagens {
+    width: 50rem;
+  }
+  .carrossel .imagens img {
+    min-width: 13.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+  .imagens {
+    width: 28rem;
+  }
+  .carrossel .imagens img {
+    min-width: 10.4rem;
+  }
+}

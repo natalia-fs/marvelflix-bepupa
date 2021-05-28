@@ -1,0 +1,24 @@
+.lista-completa {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.filmes p{
+  color: var(--white);
+  font-size: 2rem;
+  /* padding-left: 5.2rem; */
+  padding-left: 2rem;
+  margin: 1.5rem 0 .5rem 0;
+}
+.lista-completa img{
+  max-width: 13%;
+  margin: 1%;
+  cursor: pointer;
+  transition: .4s ease;
+}
+
+.lista-completa img:hover{
+  transform: scale(1.03);
+}
