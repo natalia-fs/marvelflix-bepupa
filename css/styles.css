@@ -49,15 +49,15 @@ header{
 }
 
 header img{
-  width: 12rem;
+  width: 10rem;
   height: auto;
-  padding: 1rem;
+  padding: .5rem;
   margin: .5rem;
   cursor: pointer;
 }
 
 header nav a{
-  margin: 2rem;
+  margin: 1rem;
   color: var(--white);
   transition: .2s ease;
 }

@@ -9,7 +9,7 @@ section.banner {
 }
 section.banner h1 {
   color: var(--white);
-  font-size: 4.5rem;
+  font-size: 4rem;
   margin-left: 3rem;
 }
 
@@ -34,4 +34,10 @@ section.banner .acoes button:last-child {
   color: var(--white);
   background: #0E0F1194;
   border: 1px solid var(--white);
+}
+
+@media (max-width: 768px) {
+  section.banner h1 {
+  	font-size: 3rem;
+  }
 }

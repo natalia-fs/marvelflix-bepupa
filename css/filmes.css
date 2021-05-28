@@ -14,6 +14,7 @@
 }
 .lista-completa img{
   max-width: 13%;
+  height: auto;
   margin: 1%;
   cursor: pointer;
   transition: .4s ease;
