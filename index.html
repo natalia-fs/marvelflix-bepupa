@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marvelflix</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <img src="assets/logo.png" alt="Logo">
-        <nav>
-            <a href="">Séries</a>
-            <a href="">Filmes</a>
-            <a href="">Favoritos</a>
-        </nav>
+      <img src="assets/logo.png" alt="Logo" />
+      <nav>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Favoritos</a>
+      </nav>
     </header>
 
     <main>
-        <section class="banner">
-            <div class="acoes">
-                <button type="button">Assistir</button>
-                <button type="button">Informações</button>
-            </div>
-        </section>
+      <section class="banner">
+        <div class="acoes">
+          <button type="button">Assistir</button>
+          <button type="button">Informações</button>
+        </div>
+      </section>
 
-        <section class="categorias">
-            <div class="lancamentos">
-                <p>Lançamentos</p>
-                <div class="carrossel"></div>
+      <section class="categorias">
+        <div class="lancamentos">
+          <p>Lançamentos</p>
+          <div class="carrossel">
+            <button id="anterior">&#8249;</button>
+            <div class="imagens">
+              <img class="imagem" src="assets/filme-01.png" alt="Filme">
+              <img class="imagem" src="assets/filme-02.png" alt="Filme">
+              <img class="imagem" src="assets/filme-03.png" alt="Filme">
+              <img class="imagem" src="assets/filme-04.png" alt="Filme">
+              <img class="imagem" src="assets/filme-05.png" alt="Filme">
+              <img class="imagem" src="assets/filme-06.png" alt="Filme">
+              <img class="imagem" src="assets/filme-07.png" alt="Filme">
+              <img class="imagem" src="assets/filme-08.png" alt="Filme">
             </div>
-            
-            <div class="lancamentos">
-                <p>Lançamentos</p>
-                <div class="carrossel"></div>
-            </div>
-        </section>
+            <button id="proximo">&#8250;</button>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
 </html>
