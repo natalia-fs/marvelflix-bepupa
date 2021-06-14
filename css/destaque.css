@@ -1,0 +1,23 @@
+.destaque {
+  display: flex;
+  flex-direction: column;
+}
+.destaque > p {
+  color: var(--white);
+  margin: 1rem 0;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.destaque .titulos .imagens{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.destaque .titulos .imagens .imagem{
+  width: 22%;
+  margin: 0 .2rem;
+  cursor: pointer;
+}
