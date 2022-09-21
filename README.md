@@ -6,7 +6,7 @@ Aplicação com design parecido com a home page da Netflix
 | -------------  | --- |
 | :sparkles: Nome        | **Marvelflix**
 | :label: Tecnologias | HTML, CSS, Javascript
-| :rocket: URL         | -
+| :rocket: URL         | https://marvelflix-nataliafdev.netlify.app/
 | :fire: Desafio     | -
 
 ## Preview
